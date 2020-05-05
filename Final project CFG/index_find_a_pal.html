@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://s.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Find a pal Bucket List</title>
+</head>
+
+<nav>
+    <div>
+        <div class="row">
+            <div class="col-md-12"> 
+                <a href="index.html">Home</a>
+                <a href="index_contact_us.html">Contact Us</a>
+                <a href="index_under_construction.html">Log In</a>            
+            </div>  
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div>
+        <h1>Find a buddy</h1>
+        <hr>
+        
+    <div class="container-find-a-pal">
+
+        <h5> Are you looking for a buddy to complete your bucket list? Complete the form below.
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>  </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="find-a-pal">
+                    <div>
+                        <h4>What would you like to-do:</h4>
+                            <select id="to-do" name="to-do">
+                                <option value="Read">Read</option>
+                                <option value="Attend">Attend</option>
+                                <option value="Listen">Listen</option>
+                                <option value="Travel">Travel</option>
+                                <option value="Eat">Eat</option>
+                            </select>    
+                    </div>
+                    <br>
+
+                    <div>
+                        <h4>Chose your preferred date:</h4>
+                            <label for="event">
+                              <input type="date" name="event" required pattern="\d{4}-\d{2}-\d{2}">
+                              <span class="validity"></span>
+                            </label>
+                    </div>
+                    <br>
+
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="find-a-pal">
+                        <h4>Who do you want to go with:</h4>
+                        <div>
+                            <form>
+                                <input type="checkbox" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="checkbox" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="checkbox" id="both" name="gender" value="both">
+                                <label for="both">both</label>
+                          </form>
+
+                          <div class="form-group">
+                            <button class="btn btn-primary btn-block">Send</button>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+        
+            </div>  
+
+            
+        
+
+
+        </div>        
+    </div>    
+</body>
+
+<footer>
+    <div>
+        <div class="row"></div>
+            <div class="col-md-12"> 
+                <p>Made with Love - 2020</p>
+            </div>  
+        </div>  
+</footer>
+</html>

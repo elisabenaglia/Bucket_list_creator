@@ -1,0 +1,273 @@
+html{
+    height: 100%;
+    font-family: 'Itim', cursive;
+}
+
+/*nav - DO NOT CHANGE*/
+header{
+    background-color: transparent;
+    padding: 5px 0px 5px 0px;
+    margin: 20px 40px 10px 40px;
+    text-align: center;
+}
+
+/*nav - DO NOT CHANGE*/
+nav{
+    background-color:rgba(90, 39, 72, 0.4);
+    padding: 5px 0px 5px 0px;
+    margin: 20px 40px 10px 40px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    padding: 0px 30px 0px 30px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Itim', cursive;
+    font-weight: bolder;
+    color: black;
+}
+
+/*Footer - DO NOT CHANGE*/
+footer{
+    background-color:rgba(90, 39, 72, 0.8);
+    padding: 5px 0px 5px 0px;
+    margin: 20px 40px 10px 40px;
+    text-align: center;
+    transition:0;
+}
+
+footer p{
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Itim', cursive;
+}
+
+/*Body main page - DO NOT CHANGE*/
+
+body{
+    background-image: url(img/Background.png);
+    font-family: 'Itim', cursive;
+}
+.box-tag{
+    background-color: transparent;
+    margin: 0px 40px 0px 40px;
+    /*height: 600px;!!! - Ask instructor*/ 
+    text-align: center;
+}
+
+.tag{
+    padding: 25px 50px 25px 50px;
+}
+
+.tag_under_contruction{
+    margin:20px 0 20px 0px;
+}
+
+/*Body Contact us - DO NOT CHANGE*/
+h1 {
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+}
+
+.container-contact-form{
+	background:rgba(0, 128, 128, 0.2);
+    color:black;
+    padding: 50px 100px 20px 100px;
+    margin: 0px 40px 0px 40px;
+    /*height: 600px;!!! - Ask instructor*/ 
+    color:black;
+    font-size: 15px;
+    text-align:center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    position:absolute;
+}
+
+/*Body Travel - DO NOT CHANGE*/
+
+.box-travel{
+    margin: 0px 40px 0px 40px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0px 40px 0px 40px;
+    background-color: white;
+}
+
+.space-list{
+    background-color:transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.space-polaroid1{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0px 0px 20px;
+  }
+  
+  .space-polaroid2{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    padding: 80px 0px 0px 20px;
+  }
+
+.space-polaroid1:hover{
+    transform:rotate(-20deg); /*Polaroid rotates*/
+}
+
+.space-polaroid2:hover{
+    transform:rotate(20deg); /*Polaroid rotates*/
+}
+
+
+input[type=checkbox] + label {
+    display: block; /*Uno sotto l'altro*/
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+    font-family: 'Itim', cursive;
+}
+
+input[type=checkbox] {
+    font-family: 'Itim', cursive;
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "\2B50";
+    border: 0.1em solid #000; /*Quadratpo*/
+    border-radius: 0.2em; /*Bordi stondati*/
+    width: 1.25em; /*Base*/
+    height: 1.25em; /*Altezza*/
+    padding-left: 0em; /*Ovale*/
+    padding-bottom: 0em; /*Ovale*/
+    margin-right: 0.5em; /* Distanza da scritta*/
+    margin-left: 10em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+    transform: scale(0); /*effetto*/
+    font-size: 20px; /*Taglia cerchio*/
+}
+
+input[type=checkbox]:checked + label:before {
+    background-color: teal;
+    border-color: teal;
+    color: white;
+}
+
+.gallery{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  figure{
+    width: 200px;
+    margin:10px 50px 10px 0px ;
+    border: 1px solid #777;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 8px 8px 8px 0px  rgba(0,0,0,0.4);
+  }
+
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    text-align: center;
+    padding: 8px 4px;
+  }
+
+
+  .container-find-a-pal{
+	background:rgba(84, 74, 226, 0.2);
+    color:black;
+    padding: 50px 100px 50px 100px;
+    margin: 0px 40px 0px 40px;
+    /*height: 600px;!!! - Ask instructor*/ 
+    color:black;
+}
+
+.container-find-a-pal h4{
+    font-size: 30px;
+}
+
+.container-find-a-pal p{
+    font-size: 15px;
+}
+
+option{
+    display: block; /*Uno sotto l'altro*/
+    margin: 100px;
+    cursor: pointer;
+    padding: 100px;
+}
+
+select { 
+    outline: 100px; 
+   width: 50%; 
+    height: 100%; 
+    color: rgb(129, 128, 128); 
+    cursor: pointer; 
+    border:1px  black; /*No solid*/
+    border-radius:3px; 
+} 
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+.container-find-a-pal h5{
+    margin-bottom: 50px;
+    ;
+}
+
+.container-find-a-pal button {
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
